@@ -1,0 +1,50 @@
+:root {
+  --blanco: #ffffff;
+  --negro: #000000;
+  --naranja: #ff8200;
+  --azulclaro: #40c1ac;
+  --amarillo: #ffcd00;
+  --morado: #4a25aa;
+  --azulfuerte: #343579;
+  --rosa: #cf6f77;
+  --verde: #9cb330;
+}
+
+.navbar {
+  background-color: var(--back);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu {
+  width: 100%;
+  display: flex;
+  justify-content: sa;
+  padding: 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar-item {
+  font-style: normal;
+  cursor: pointer;
+  padding: 1rem;
+  margin: auto;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-menu img {
+  height: 80px;
+}
+
+.navbar-menu button {
+  background-color: #00bfa6;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
